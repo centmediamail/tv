@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml" tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml" x-tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml"
+#EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"OaJ6osyEoptmX8xNv5xUtg", "kid":"FAa78hjKFPlnA0/PSr93EA" } ], "type":"temporary" }
  
@@ -9,7 +9,7 @@
  
  
  
-#EXTINF:-1 tvg-id="TV1" tvg-name="TV1" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/tv1_bckg.png",TV1
+#EXTINF:-1 tvg-id="TV1" tvg-name="TV1" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/480x0/live_channel/tv1_Trans.png",TV1
 https://mifntechnology.github.io/siaranMy/channels/Tv1/index.m3u8
 #EXTINF:-1 tvg-id="102" group-title="Default" tvg-logo="https://tv2.rtm.gov.my/assets/img/TV2.png",TV2
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/manifest.mpd
@@ -17,9 +17,9 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/manifest.mpd
 https://mifntechnology.github.io/siaranMy/channels/Tv3/index.m3u8
 #EXTINF:-1 tvg-id="DuniaSinema" tvg-name="DuniaSinema" group-title="Default" tvg-logo="http://playtv.unifi.com.my:7040/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png",DuniaSinema
 https://mifntechnology.github.io/siaranMy/channels/DuniaSinema/index.m3u8
-#EXTINF:-1 tvg-id="OKEY" tvg-name="Okey Tv" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_TVOKEY.jpg",Okey Tv
+#EXTINF:-1 tvg-id="OKEY" tvg-name="Okey Tv" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/480x0/live_channel/okey_Trans.png",Okey Tv
 https://mifntechnology.github.io/siaranMy/channels/TvOkey/index.m3u8
-#EXTINF:-1 tvg-id="TV6" tvg-name="TV6" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_TV6.jpg",TV6
+#EXTINF:-1 tvg-id="TV6" tvg-name="TV6" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/480x0/live_channel/tv6_Trans.png",TV6
 https://mifntechnology.github.io/siaranMy/channels/Tv6/index.m3u8
 #EXTINF:-1 tvg-id="DidikTVKPM" tvg-name="DidikTv KPM" group-title="Default" tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420324:378:CHANNEL:IMAGE:png&w=200&appID=TONTON",DidikTv KPM
 https://mifntechnology.github.io/siaranMy/channels/DidikTvKPM/index.m3u8
@@ -31,7 +31,7 @@ https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
 https://mifntechnology.github.io/siaranMy/channels/AstroAwani/index.m3u8
 #EXTINF:-1 tvg-id="BERITARTM" tvg-name="BERITA RTM" group-title="Default" tvg-logo="https://berita.rtm.gov.my/images/01-homepage/logo-berita.png",BERITA RTM
 https://mifntechnology.github.io/siaranMy/channels/BeritaRTM/index.m3u8
-#EXTINF:-1 tvg-id="TVSUKAN" tvg-name="SUKAN RTM" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_SUKANRTM.jpg",SUKAN RTM
+#EXTINF:-1 tvg-id="TVSUKAN" tvg-name="SUKAN RTM" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/480x0/live_channel/sukan_Trans.png",SUKAN RTM
 https://mifntechnology.github.io/siaranMy/channels/SukanRTM/index.m3u8
 #EXTINF:-1 tvg-id="TVS" group-title="Default" tvg-logo="https://s3.tvstv.my/wp-content/uploads/2024/03/tvs-logo-reduced.png",TVS
 https://mifntechnology.github.io/siaranMy/channels/Tvs/index.m3u8
@@ -49,229 +49,5 @@ https://linearfast04.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f8
 https://linearfast03.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_3_Ad/dash.mpd
 #EXTINF:-1 tvg-id="135.astro" group-title="Default" tvg-logo="https://aqfadtv.xyz/logos/Travel&Taste.png",Travel & Taste
 https://linearfast05.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_5_Ad/dash.mpd
-#EXTINF:-1 tvg-id="106.astro" group-title="Default" tvg-logo="https://telegra.ph/file/e5f799e7bb561e6234e5b.png",Astro Oasis HD
-https://linear09-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="702.astro" group-title="Default" tvg-logo="https://linear-poster.astro.com.my/prod/logo/HITSNOW.png",Hits Now
-https://linear05-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="820.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/logo_1701_v3.png",Eurosport
-https://linear03-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="0.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport_v1.png",Astro Supersport Plus
-https://linear03-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="803.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/AstroArenaBola_v1.png",Arena Bola
-https://d1fk7kbmz4il3.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="816.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/SPOTV.png",SPOTV
-https://d1fk7kbmz4il3.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 group-title="Sooka" tvg-logo="https://d1cpsf32ggxh4r.cloudfront.net/static/Afile/image/logo.png",XXX
-https://d1fk7kbmz4il3.cloudfront.net/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="306.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_AEC_v1.png",Astro AEC
-https://d1fk7kbmz4il3.cloudfront.net/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="804.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/AstroArenaBola2_v1.png",Arena Bola 2
-https://d1fk7kbmz4il3.cloudfront.net/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="801.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_Arena_v1.png",Astro Arena
-https://d277c08tzca9og.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 group-title="Sooka" tvg-logo="https://d1cpsf32ggxh4r.cloudfront.net/static/Afile/image/logo.png",XXXX
-https://d277c08tzca9og.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="811.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport_v1.png",Astro SuperSport
-https://d3j4fjrwclc3o8.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="814.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport4_v1.png",Astro Supersport 4
-https://d3j4fjrwclc3o8.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="815.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/W-Sport.png",W-Sport
-https://d3j4fjrwclc3o8.cloudfront.net/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="812.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport2_v1.png",Astro SuperSport 2
-https://d3j4fjrwclc3o8.cloudfront.net/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="813.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_SuperSport3_v1.png",Astro SuperSport 3
-https://d3j4fjrwclc3o8.cloudfront.net/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="802.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/AstroArena2.png",Astro Arena 2
-https://dcqkiaqc3sngm.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="819.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/beIN_SPORTS3_V2.png",beIN Sports 3
-https://dcqkiaqc3sngm.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="810.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/SPOTV2.png",SPOTV2
-https://dcqkiaqc3sngm.cloudfront.net/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="817.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/beINSPORTS2.png",beIN Sports 2
-https://dcqkiaqc3sngm.cloudfront.net/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="818.astro" group-title="Sooka" tvg-logo="https://linear-poster.astro.com.my/prod/logo/beIN_Sports_v1.png",beIN Sports
-https://dcqkiaqc3sngm.cloudfront.net/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="1.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/574e45f95d5d4a288aad6e711ace25b6/version/0/width/120/height/90/quality/80",K-POPCORN
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01944-ktalpha-kpopcorn-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="3.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/66847680a99c4be9af34f94102e6e416/version/0/width/120/height/90/quality/80",MTRSPT 1
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-sooka-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="6.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/9ccc772601b741d4a20c94c132a03282/version/0/width/120/height/90/quality/80",TAYO+
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00640-lydnetwork-tayoplus-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="7.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/e171e4404e5344c8864a8f1079301ec3/version/0/width/120/height/90/quality/80",EDGEsport
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00545-edgenetworks-edgesport-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="8.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/718984734b9a40688ab3fde72f27e7ee/version/0/width/120/height/90/quality/80",Infamous TV
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01324-infamousmedia-infamoustv-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="9.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/bbeffd348eab475f8e6758b84534e6e3/version/0/width/120/height/90/quality/80",Gusto TV
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotv-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="10.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/6645e2e786014bc482c4835a8f97e1bd/version/0/width/120/height/90/quality/80",Bollywood Prime
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00877-b4unetworkeurop-bollywoodprime-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="11.astro" group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/49ff127ab3834c32b241575548e4c4a9/version/0/width/120/height/90/quality/80",YRF Music
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00223-unisysinfo-yrf-music-dash-sooka/index.mpd
-#EXTINF:-1 group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/0b7ee488e85f40389398c3a9f60a2327/version/0/width/120/height/90/quality/80",Drama Hebat
-https://linearfast01.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_1_Ad/dash.mpd
-#EXTINF:-1 group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/0840a1e4e5474ab2bd8ed2e78b62a3cc/version/0/width/120/height/90/quality/80",Drama HotPot
-https://linearfast04.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_4_Ad/dash.mpd
-#EXTINF:-1 group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/630b643fb6cf4ceca08c9d9a97c2af89/version/0/width/120/height/90/quality/80",Filem Mantap
-https://linearfast02.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_2_Ad/dash.mpd
-#EXTINF:-1 group-title="Sooka" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/bf0217c390d64933a8322599c7fc8cdb/version/0/width/120/height/90/quality/80",Lawak Sentral
-https://linearfast03.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_3_Ad/dash.mpd
-#EXTINF:-1 tvg-id="KBSWorld" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/161_144.png",KBS World
-https://linear03-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="tvN" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/190_144.png",tvN
-https://linear03-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="AstroAwani" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/436_144.png",Awani
-https://linear03-playback.sooka.my/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="ONE" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/133_144.png",One
-https://linear05-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="TV2" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/396_144.png",TV2
-https://linear08-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="OKEY" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/467_144.png",TV Okey
-https://linear08-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="TV1" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/395_144.png",TV1
-https://linear08-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="tvNMovies" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/274_144.png",tvN Movies
-https://linear08-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="K-Plus" group-title="Sooka" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/266_144.png",K-Plus
-https://linear08-playback.sooka.my/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="306.astro" group-title="Sooka" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_AEC_v1.png",AEC
-https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="308.astro" group-title="Sooka" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroQJ_2023.png",Quan Jia
-https://d1yws6emo43ny.cloudfront.net/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="AstroAEC" group-title="Sooka" tvg-logo="https://telegra.ph/file/e36872d8b3f54568fdcbb.png",Astro AEC
-https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="AstroQJ" group-title="Sooka" tvg-logo="https://telegra.ph/file/8ad97b76073e147cdeaa1.png",Astro QJ
-https://d1yws6emo43ny.cloudfront.net/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="AstroArena" group-title="Sooka" tvg-logo="https://telegra.ph/file/8a83953f3b1fc63e1d7a8.png",Astro Arena
-https://d277c08tzca9og.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="AstroArena2" group-title="Sooka" tvg-logo="https://telegra.ph/file/4dd8b7db6182cb5f48ce5.png",Astro Arena 2
-https://dcqkiaqc3sngm.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="AstroArenaBola" group-title="Sooka" tvg-logo="https://telegra.ph/file/bf3c99a8a7c2b8aae472c.png",Arena Bola
-https://d1fk7kbmz4il3.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="AstroArenaBola2" group-title="Sooka" tvg-logo="https://telegra.ph/file/6996a6dca16f43f734049.png",Arena Bola 2
-https://d1fk7kbmz4il3.cloudfront.net/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="AstroSupersport" group-title="Sooka" tvg-logo="https://telegra.ph/file/ec444fecfcb3a20cd6aa4.png",Astro Supersport
-https://d3j4fjrwclc3o8.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="AstroSupersport" group-title="Sooka" tvg-logo="https://telegra.ph/file/ec444fecfcb3a20cd6aa4.png",Astro Supersport A
-https://d277c08tzca9og.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="AstroSupersport2" group-title="Sooka" tvg-logo="https://telegra.ph/file/bdb04ae013c6d829c3851.png",Astro Supersport 2
-https://d3j4fjrwclc3o8.cloudfront.net/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="AstroSupersport3" group-title="Sooka" tvg-logo="https://telegra.ph/file/fee0eec440200aabe6685.png",Astro Supersport 3
-https://d3ey18635ukr4v.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="AstroSupersport4" group-title="Sooka" tvg-logo="https://telegra.ph/file/4cf5891aa6569231ea9a8.png",Astro Supersport 4
-https://d3j4fjrwclc3o8.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="W-Sport" group-title="Sooka" tvg-logo="https://telegra.ph/file/f3d65152120615b6eef9b.png",W-Sport
-https://d3j4fjrwclc3o8.cloudfront.net/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="SPOTV" group-title="Sooka" tvg-logo="https://telegra.ph/file/5f88f4c83df61f6896eee.png",SPOTV
-https://d1fk7kbmz4il3.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="SPOTV2" group-title="Sooka" tvg-logo="https://telegra.ph/file/5cbed7dd2c3a6d7d93391.png",SPOTV2
-https://dcqkiaqc3sngm.cloudfront.net/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="808.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/a753f71d686cef4de067e.png",SPOTV Stadia
-https://d3pjpbn7s5952i.cloudfront.net/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="824.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/a5407d65397a96458214f.png",Astro Cricket
-https://d1yws6emo43ny.cloudfront.net/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="beINSports" group-title="Sooka" tvg-logo="https://telegra.ph/file/d94c1cdf66541be72786b.png",beIN Sports
-https://dcqkiaqc3sngm.cloudfront.net/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="beINSports2" group-title="Sooka" tvg-logo="https://telegra.ph/file/8b9be78d45d64af83200c.png",beIN Sports 2
-https://dcqkiaqc3sngm.cloudfront.net/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="beINSports3" group-title="Sooka" tvg-logo="https://telegra.ph/file/5e4a76a2f67d30080d63f.png",beIN Sports 3
-https://dcqkiaqc3sngm.cloudfront.net/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="beINSports3" group-title="Sooka" tvg-logo="https://telegra.ph/file/b9bcb8b113bc1e58e50bb.png",Astro Cricket Plus
-https://linear05-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="7.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/0c41a0b455c9348edb392.png",Free Movie
+#EXTINF:-1 tvg-id="7.astro" group-title="Default" tvg-logo="https://telegra.ph/file/0c41a0b455c9348edb392.png",Free Movie
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-freemovies-dash-sooka-sooka/index.mpd
-#EXTINF:-1 tvg-id="5.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/ef2daa3ec829e54a6e13d.png",Pet Club
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-astro-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="4.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/0a1e0b802beb7be122f38.png",Jelly Jam World
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-jellyjam-dash-sooka-test-sooka/index.mpd
-#EXTINF:-1 tvg-id="300.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/fdf5dc4c972b4b3350667.png",iQIYI HD
-https://linear12-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="701.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/34c852f11f68f59af5699.png",AXN HD
-https://linear11-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="554.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/1e15632be0a2240ef732c.png",BBC Earth
-https://linear13-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="717.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/5b8c41513424d1b154a88.png",BBC Lifestyle HD
-https://linear12-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="620.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/5715a7286a67669db999f.png",CBeebies
-https://linear13-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="551.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/0ff4fd815a54861a9f45c.png",Global Trekker
-https://linear14-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="612.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/ee9f952ab359e6bc756b6.png",Dreamworks
-https://linear13-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="550.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/93211594d20f9ea471ec9.png",Love Nature HD
-https://linear11-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="513.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/ed43468ae09f6fc2c6bd9.png",Al Jazeera English HD
-https://linear12-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="515.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/1bd44ed23f0b2e4ef52d5.png",CNA HD
-https://linear12-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="335.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/4a10b804de489dfe818af.png",CCTV4 HD
-https://linear10-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="325.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/1f94653020273c36a030e.png",Phoenix Chinese Channel HD
-https://linear11-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="316.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/b400ba4cddee51706c418.png",CTI Asia HD
-https://linear10-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="326.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/acaa5134a9a55745ffae5.png",Phoenix Info News HD
-https://linear13-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="503.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/5f83d4104ac9817a9b239.png",CGTN HD
-https://linear11-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="136.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/b641200da0212a83a4f53.png",Oh My Ceria
-https://linearfast07.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_7_Ad/dash.mpd
-#EXTINF:-1 tvg-id="TVS" group-title="Sooka" tvg-logo="https://telegra.ph/file/45ebb716daee3d1107421.png",TVS
-https://linear10-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="TVBJade" group-title="Sooka" tvg-logo="https://telegra.ph/file/390db16ccf28ea54c4cc7.png",TVB Jade
-https://linear09-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="TVBClassic" group-title="Sooka" tvg-logo="https://telegra.ph/file/8b00ee775c388fc38469c.png",TVB Classic HD
-https://linear09-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="317" group-title="Sooka" tvg-logo="https://telegra.ph/file/7f3f3c64928e57133a1e0.png",TVB Entertainment News HD
-https://linear09-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="319.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/2f2b64e9f0dd2dc964361.png",TVB Xing He HD
-https://linear10-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="311.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/ab4779ded9411f381bd84.png",Astro AOD
-https://linear07-playback.sooka.my/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="130.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/98fb95419ca16069cfce4.png",Jom Ngaji
-https://linearfast06.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_6_Ad/dash.mpd
-#EXTINF:-1 tvg-id="6.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/463016c93514bbbbca3c9.png",TAYO+
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00640-lydnetwork-tayoplus-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="12.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/cfc9e70ed92b4ef8e8c1d.png",Tastemade
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadeintlaus-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="9.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/5519c33486348b23ffeca.png",Gusto TV
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotv-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="8.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/86f0c6bc32983a530650f.png",Infamous TV
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01324-infamousmedia-infamoustv-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="11.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/e711100096d172ddc8928.png",YRF Music
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00223-unisysinfo-yrf-music-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="3.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/669b22c4fd46abd9ca4f8.png",MTRSPT1
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-sooka-dash-sooka/index.mpd
-#EXTINF:-1 tvg-id="TV1" group-title="Sooka" tvg-logo="https://telegra.ph/file/670a6c2c2f87754f6c8ec.png",TV1
-https://linear08-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="TV2" group-title="Sooka" tvg-logo="https://telegra.ph/file/a449990e1f2d0a6ac8ec6.png",TV2
-https://linear08-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="OKEY" group-title="Sooka" tvg-logo="https://telegra.ph/file/5d45ee71e76d1e0d19199.png",TV Okey
-https://linear08-playback.sooka.my/CH2/masterCH2.mpd
-#EXTINF:-1 tvg-id="132.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/0c4afb9624d691ef282a4.png",DRAMA HEBAT
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_1/dash.mpd
-#EXTINF:-1 tvg-id="131.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/6c1ea8ba4e4fd18681306.png",FILEM MANTAP
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_2/dash.mpd
-#EXTINF:-1 tvg-id="134.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/1621221a6795938224b62.png",LAWAK SENTRAL
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_3/dash.mpd
-#EXTINF:-1 tvg-id="133.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/d58fe99a006c3ad4b9e24.png",DRAMA HOTPOT
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_4/dash.mpd
-#EXTINF:-1 tvg-id="135.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/071ec21b298280a2e418c.png",TRAVEL & TASTE
-https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_5/dash.mpd
-#EXTINF:-1 tvg-id="702.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/0cae52fdf1540e0d84455.png",HITS NOW
-https://linear05-playback.sooka.my/CH3/masterCH3.mpd
-#EXTINF:-1 tvg-id="401.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/94a14183b17e8749173fa.png",HITS MOVIES HD
-https://linear05-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="706.astro" group-title="Sooka" tvg-logo="https://telegra.ph/file/1ff29df0932fb7ad48ce3.png",HITS HD
-https://linear05-playback.sooka.my/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="ONE" group-title="Sooka" tvg-logo="https://iili.io/1NC5v9.png",One HD
-https://linear05-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="KBSWorld" group-title="Sooka" tvg-logo="https://telegra.ph/file/4d0a8c3434f44f8a46573.png",KBS World
-https://linear03-playback.sooka.my/CH1/masterCH1.mpd
-#EXTINF:-1 tvg-id="K-Plus" group-title="Sooka" tvg-logo="https://telegra.ph/file/670c09c6465e840e4e566.png",K-Plus
-https://linear08-playback.sooka.my/CH5/masterCH5.mpd
-#EXTINF:-1 tvg-id="tvN" group-title="Sooka" tvg-logo="https://telegra.ph/file/01d964c23e6ac296490a4.png",tvN
-https://linear03-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="tvNMovies" group-title="Sooka" tvg-logo="https://telegra.ph/file/017abfae80104df23085c.png",tvN Movies
-https://linear08-playback.sooka.my/CH4/masterCH4.mpd
-#EXTINF:-1 tvg-id="AstroAwani" group-title="Sooka" tvg-logo="https://telegra.ph/file/91b060a9fbca0526d338f.png",Astro Awani
-https://linear03-playback.sooka.my/CH5/masterCH5.mpd

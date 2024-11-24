@@ -26,7 +26,8 @@ https://mifntechnology.github.io/siaranMy/channels/BeritaRTM/index.m3u8
 #EXTINF:-1 tvg-id="TVSUKAN" tvg-name="SUKAN RTM" group-title="Default" tvg-logo="https://rtm-images.glueapi.io/480x0/live_channel/sukan_Trans.png",SUKAN RTM
 https://mifntechnology.github.io/siaranMy/channels/SukanRTM/index.m3u8
 #EXTINF:-1 tvg-id="TVS" group-title="Default" tvg-logo="https://s3.tvstv.my/wp-content/uploads/2024/03/tvs-logo-reduced.png",TVS
-https://mifntechnology.github.io/siaranMy/channels/Tvs/index.m3u8
+https://centmediamail.github.io/tv/tvs.m3u8
+
 #EXTINF:-1 tvg-id="TVAlhijrah" tvg-name="TvAlhijrah" group-title="Default" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",TvAlhijrah
 https://mifntechnology.github.io/siaranMy/channels/TvAlhijrah/index.m3u8
 #EXTINF:-1 tvg-id="TVIKIM" tvg-name="Tv Ikim" group-title="Default" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/TvIkim.png",Tv Ikim

@@ -31,8 +31,7 @@ https://mifntechnology.github.io/siaranMy/channels/Tvs/index.m3u8
 https://mifntechnology.github.io/siaranMy/channels/TvAlhijrah/index.m3u8
 #EXTINF:-1 tvg-id="TVIKIM" tvg-name="Tv Ikim" group-title="Default" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/TvIkim.png",Tv Ikim
 https://mifntechnology.github.io/siaranMy/channels/TvIkim/index.m3u8
-#EXTINF:-1 group-title="Default" tvg-id="CartoonNetwork " tvg-logo="https://mifntechnology.github.io/siaranMy/logo/CN.png",CartoonNetwork
-https://mifntechnology.github.io/siaranMy/channels/CartoonNetwork/index.m3u8
+
 #EXTINF:-1 tvg-id="131.astro" group-title="Default" tvg-logo="https://aqfadtv.xyz/logos/FilemMantap.png",Filem Mantap
 https://linearfast02.playback.sooka.my/v1/dash/7d6144f66f990e10fc667942d522b82f89ae5cd9/FAST_2_Ad/dash.mpd
 #EXTINF:-1 tvg-id="132.astro" group-title="Default" tvg-logo="https://aqfadtv.xyz/logos/DramaHebat.png",Drama Hebat

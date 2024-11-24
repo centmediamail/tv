@@ -9,9 +9,8 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/manifest.mpd
 https://mifntechnology.github.io/siaranMy/channels/Tv3/Tv3.m3u8
 
 #EXTINF:-1 tvg-id="102.astro" group-title="myFreeview" ch-number="102" group-logo="https://aqfadtv.xyz/images/myfreeview.png" tvg-logo="https://aqfadtv.xyz/logos/TV2.png",102 TV2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"JKmxeFmGKIfyj2PHwpvKpQ", "kid":"9b2-4cd6-51ee-6b3c13446d10" } ], "type":"temporary" }
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2605/default.mpd
 
 #EXTINF:-1 tvg-id="DuniaSinema" tvg-name="DuniaSinema" group-title="Default" tvg-logo="http://playtv.unifi.com.my:7040/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png",DuniaSinema

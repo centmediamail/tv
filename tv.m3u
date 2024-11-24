@@ -27,7 +27,7 @@ https://mifntechnology.github.io/siaranMy/channels/BeritaRTM/index.m3u8
 https://mifntechnology.github.io/siaranMy/channels/SukanRTM/index.m3u8
 #EXTINF:-1 tvg-id="TVS" group-title="Freeview" tvg-logo="https://s3.tvstv.my/wp-content/uploads/2024/03/tvs-logo-reduced.png",TVS
 https://mifntechnology.github.io/siaranMy/channels/Tvs/index.m3u8
-#EXTINF:-1 tvg-id="TVAlhijrah" tvg-name="TvAlhijrah" group-title="Freeview" tvg-logo="https://tvalhijrah.com/wp-content/uploads/2023/04/TV_Alhijrah_logo-1.png",TvAlhijrah
+#EXTINF:-1 tvg-id="TVAlhijrah" tvg-name="TvAlhijrah" group-title="Freeview" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",TvAlhijrah
 https://mifntechnology.github.io/siaranMy/channels/TvAlhijrah/index.m3u8
 #EXTINF:-1 tvg-id="TVIKIM" tvg-name="Tv Ikim" group-title="Freeview" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/TvIkim.png",Tv Ikim
 https://mifntechnology.github.io/siaranMy/channels/TvIkim/index.m3u8

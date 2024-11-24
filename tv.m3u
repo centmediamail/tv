@@ -10,7 +10,7 @@ https://mifntechnology.github.io/siaranMy/channels/Tv3/Tv3.m3u8
 
 #EXTINF:-1 tvg-id="102.astro" group-title="myFreeview" ch-number="102" group-logo="https://aqfadtv.xyz/images/myfreeview.png" tvg-logo="https://aqfadtv.xyz/logos/TV2.png",102 TV2
 #KODIPROP:inputstream.adaptive.license_type=
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"JKmxeFmGKIfyj2PHwpvKpQ", "kid":"T4hUgf4FPlRAllMsHcuXEA" } ], "type":"temporary" }
+#KODIPROP:inputstream.adaptive.license_key={ } ], "type":"temporary" }
 https://unifi-live02.secureswiftcontent.com/UnifiHD/live31.mpd
 
 #EXTINF:-1 tvg-id="DuniaSinema" tvg-name="DuniaSinema" group-title="Default" tvg-logo="http://playtv.unifi.com.my:7040/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png",DuniaSinema
